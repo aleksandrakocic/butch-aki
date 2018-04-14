@@ -1,7 +1,9 @@
 @import "reset";
 @import "global";
+@import "vendor/bootstrap-grid.min";
 
 /* Template segments */
 @import "template/header";
 @import "template/footer";
 @import "template/main";
+@import "index";
