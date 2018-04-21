@@ -7,43 +7,17 @@
 @import "template/footer";
 @import "template/main";
 @import "index";
+@import "template/hero";
 //SVE PONOVO
 
 
 
 // overflow: hidden;
- #home{
-       background-image:url("../img/fhome2.png");
-       background-repeat: no-repeat;
-       background-size: cover;
-       height: 100vh;
-//   .scrolled{
-//     background-color: dodgerblue;
-//   transition: 0.3s;
-//   }
-//   padding-top:1%;
-  #logo{
-        font-size: 10vh;
-//promeniti na scroll da se smanji
-        font-weight: 900;
-    // margin-top: -30px;
-   }
-   #nav{
-        position: fixed;
-    li{
-       color:#a92831;
-     a{
-       text-decoration: none;
-       color:#a92831;
-       font-size: 3vh;
-    
-     }
-    }
-   }
+
    #music{
           padding-top: 84vh;
    }
-  }
+ 
 
   #events{
           height: 100vh;

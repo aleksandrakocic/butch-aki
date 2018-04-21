@@ -10,7 +10,13 @@ body {
 	font-family: Null Free; src:url("../fonts/Null_Free.otf")
 }
 // Global Variables
-$black: #3d3d3d;
-$white: #ededed;
-$light-blue: #6fbfe8;
-$accent-orange: #d6751b;
+$pink:#cb3040;
+$white:#ffffff;
+
+
+
+//global width
+.position{
+	max-width: 1440px;
+	margin:0 auto;
+}

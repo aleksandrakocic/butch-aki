@@ -1,0 +1,36 @@
+#hero{
+    background-image:url("../img/fhome2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    
+    .nav{
+        max-width:1440px;
+        margin:0 auto;
+        .logo{
+            font-family: Null Free;
+            font-size:80px;
+            color:$pink;
+            text-decoration: none;
+            font-style: italic;
+        
+            
+        }
+        ul{
+            li{
+                display:inline;
+                a{
+                    color:$pink;
+                    // display: block;
+                    font-size: 25px;
+                    text-decoration: none;
+                    padding:60px;
+                    &:hover{
+                        color:$white;
+                    }
+                }
+            }
+        }
+    }
+}
