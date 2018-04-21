@@ -23,6 +23,7 @@ var calculation = 200 + 223;
 console.log('Sanity Check: 200 + 223 = ' + calculation);
 console.log('bye.');
 "use strict";
+"use strict";
 
 console.log("hello");
 
