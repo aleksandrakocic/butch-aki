@@ -62,10 +62,12 @@ body{
       }
      .eventovi{
       p{
-        font-size: 4vh; 
+        font-size: 4vh;
+        color: white; 
        }
       img{
-    
+      height: 4vh;
+      width: 4vw;
       }
       #ikonice{
        a{
@@ -76,12 +78,17 @@ body{
        }
      }
     }
+    #buy{
+    opacity: 0.3;
+    }
    button{
 //    background: #cb3040;
-          background: black;
+          background: #190a3d;
+          opacity:1;
    // opacity: 1;
-          color: black;
-          border: 2px solid #a92831;
+          color: white;
+          border: 1px solid #a92831;
+          border-bottom: 2px solid #a92831;
           border-radius: 20px;
           height: 40px;
    }
