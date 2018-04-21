@@ -1,0 +1,47 @@
+
+ #contact{
+    height: 100vh;
+//  background: #ba2d3e;
+    background: #a92831;
+    padding-top: 70px;
+#contactHeader{
+h1{
+font-size: 9vh;
+font-weight: 800;
+text-decoration: underline;
+color:#190a3d;
+}
+}
+#contactForm{
+#form{
+#fullName{
+        background-color: #a92831;
+        border: 2px solid #190a3d; 
+        margin-top: 5px;
+}
+#email{
+     background-color: #a92831;
+     border: 2px solid #190a3d; 
+     margin-top: 5px;
+}
+#yourMsg{
+       margin-top: 3vh;
+       height: 40vh;
+       background-color: #a92831;
+       border: 2px solid #190a3d; 
+}
+#send{
+    margin-top: 2vh;
+    height: 5vh;
+// background: #190a3d;
+    // color: #a92831;
+    color: black;
+    border: none; 
+    background-image: url("../img/sendB.png");
+    background-size:cover;
+    background-repeat: no-repeat; 
+    text-align: left;
+   }
+}
+}
+}
