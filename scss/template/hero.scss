@@ -3,19 +3,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-
+    padding:0px;
     
     .nav{
         max-width:1440px;
         margin:0 auto;
+        padding:20px;
         .logo{
             font-family: Null Free;
             font-size:80px;
             color:$pink;
             text-decoration: none;
             font-style: italic;
-        
-            
         }
         ul{
             li{
@@ -25,7 +24,7 @@
                     // display: block;
                     font-size: 25px;
                     text-decoration: none;
-                    padding:60px;
+                    padding:0px 60px;
                     &:hover{
                         color:$white;
                     }
@@ -33,4 +32,20 @@
             }
         }
     }
+
+    #music{
+        position: absolute !important; 
+        width:100% !important;
+        bottom:0;
+        background-color:$pink;
+
+
+       .powr-music-player{
+           max-height:110px !important;
+           iframe{
+               max-height:100px !important;
+           }
+       }
+ }
 }
+
