@@ -1,47 +1,36 @@
 
- #contact{
-    height: 100vh;
-//  background: #ba2d3e;
-    background: #a92831;
-    padding-top: 70px;
 #contactHeader{
-h1{
-font-size: 9vh;
-font-weight: 800;
-text-decoration: underline;
-color:#190a3d;
+    background: #a92831;
+    padding:20px 0px;
+    
+    h1{
+        font-size: 80px;
+        text-decoration: underline;
+        color:$blue;
+        font-family:Null free;
+        font-weight: 400;
+    }
 }
-}
-#contactForm{
+
 #form{
-#fullName{
+    
+    input{
+        margin-top: 5px;
         background-color: #a92831;
         border: 2px solid #190a3d; 
-        margin-top: 5px;
+        
+    }
+    textarea{
+        background-color: #a92831;
+        border: 2px solid #190a3d; 
+    }
+    #send{
+        background-color: $blue;
+        color: $pink;
+        border: none; 
+        text-align: left;
+        
+    }
 }
-#email{
-     background-color: #a92831;
-     border: 2px solid #190a3d; 
-     margin-top: 5px;
-}
-#yourMsg{
-       margin-top: 3vh;
-       height: 40vh;
-       background-color: #a92831;
-       border: 2px solid #190a3d; 
-}
-#send{
-    margin-top: 2vh;
-    height: 5vh;
-// background: #190a3d;
-    // color: #a92831;
-    color: black;
-    border: none; 
-    background-image: url("../img/sendB.png");
-    background-size:cover;
-    background-repeat: no-repeat; 
-    text-align: left;
-   }
-}
-}
-}
+
+
