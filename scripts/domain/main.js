@@ -4,17 +4,19 @@ console.log("hello");
 
 
 //----------------SCROLL-------------------
-// $(function() {
-//     var header = $("#nav");
-  
-//     $(window).scroll(function() {    
-//         var scroll = $(window).scrollTop();
-//         if (scroll >= 50) {
-//             header.addClass("scrolled");
-//         } else {
-//             header.removeClass("scrolled");
-//         }
-//     });
+$(function() {
+    var header = $("#nav");
+    var logo = $(".logo")
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll > 0) {
+            header.addClass("scrolled");
+   
+        } else {
+            header.removeClass("scrolled");
+        }
+    });
+})
 //---------------------------------------------
 
 //------------------ ZA API --------------------
@@ -107,17 +109,3 @@ console.log("hello");
 
 
 
-
-//-------------ZA NAV ON SCROLL---------------
-
-// $(function() {
-//     var header = $("#nav");
-  
-//     $(window).scroll(function() {    
-//         var scroll = $(window).scrollTop();
-//         if (scroll >= 50) {
-//             header.addClass("scrolled");
-//         } else {
-//             header.removeClass("scrolled");
-//         }
-//     );

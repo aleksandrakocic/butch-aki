@@ -4,10 +4,10 @@
     background-size: cover;
    height:100vh;
     padding:0px;
+    transition:1s ease;
     
-    .nav{
-        max-width:1440px;
-        margin:0 auto;
+    #nav{
+
         padding:20px;
         .logo{
             font-family: Null Free;
@@ -49,3 +49,14 @@
  }
 }
 
+
+.scrolled{
+    position: sticky;
+    background-color:$blue;
+    top:0;
+    right:0;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    z-index:999;
+}
