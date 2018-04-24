@@ -1,1 +1,25 @@
+#gallery{
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 140px;
+    background: #190a3d;
+     h1{
+        text-decoration: underline;
+        color:$pink;
+        font-size: 60px;
+        font-family: Null Free;
+        // padding-top:80px;
+        font-weight: 100;
+     }
+    #images{
+         div{
+            padding-top:20px;
+           .slika{
+           height: 400px;
+           width: 800px;
+        }
+        }
+    }
+}
+
 

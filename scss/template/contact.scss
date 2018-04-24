@@ -13,24 +13,40 @@
 }
 
 #form{
-    
+
+    // .noCorrect::placeholder{
+    //  color:#190a3d;
+    //  background: lightgray;
+    // }
+    .noCorrect{
+    background: gray;
+    }
     input{
         margin-top: 5px;
         background-color: $pink;
-        border: 2px solid #190a3d; 
+        border: 2px solid #190a3d;           
         
     }
+    input::placeholder{
+       color: white;
+    }
     textarea{
+        margin-top: 5px;
         background-color: $pink;
         border: 2px solid #190a3d; 
+    }
+    textarea::placeholder{
+       color: white;
+       
     }
     #send{
         background-color: $blue;
         color: $pink;
         border: none; 
-        text-align: left;
+        text-align: center;
         
     }
+    
 }
 
 

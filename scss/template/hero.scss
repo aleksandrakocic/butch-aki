@@ -22,9 +22,9 @@
                 a{
                     color:$pink;
                     // display: block;
-                    font-size: 25px;
+                    font-size: 20px;
                     text-decoration: none;
-                    padding:0px 60px;
+                    padding:0px 30px;
                     &:hover{
                         color:$white;
                         text-decoration: underline;
@@ -42,7 +42,7 @@
 
 
        .powr-music-player{
-           max-height:110px !important;
+           max-height:100px !important;
            iframe{
                max-height:100px !important;
            }
@@ -54,6 +54,7 @@
 .scrolled{
     position: sticky;
     background-color:$blue;
+    opacity: 0.8;
     top:0;
     right:0;
     width:100%;

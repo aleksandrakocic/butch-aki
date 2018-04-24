@@ -20,18 +20,20 @@
             background-color:$blue;
             
             h2{
+                padding-top: 10px;
                 color:$white;
-                font-size:60px;
+                font-size:45px;
             }
             h3{
+                padding-top: 20px;
                 color:$pink;
-                font-size:40px;
+                font-size:35px;
             }
         }
     }
     
     p{
-        font-size:30px;
+        font-size:25px;
         font-style: italic;
         color:$white;
         text-align: center;
